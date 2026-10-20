@@ -1,0 +1,7 @@
+import PageHero from "@/components/ui/PageHero";
+import FacilitiesSection from "@/components/home/FacilitiesSection";
+import { facilities } from "@/data/facilities";
+import { CheckCircle2 } from "lucide-react";
+import BookingCTA from "@/components/home/BookingCTA";
+export const metadata = { title: "Facilities", description: "Review AC dormitory facility information and confirm current amenities before booking your stay in Vizag." };
+export default function FacilitiesPage() { return <><PageHero eyebrow="Facilities" title="The essentials for a more comfortable stay." description="Facilities shown here are configurable examples. Confirm what is actually available at the property before booking."/><FacilitiesSection preview={false}/><section className="bg-white py-12"><div className="container-shell"><div className="max-w-2xl"><p className="eyebrow">Before you arrive</p><h2 className="section-title">Confirm what matters to you.</h2><p className="mt-4 text-sm leading-7 text-stone-600">If you need Wi-Fi, a specific bathroom arrangement, accessible entry, luggage storage, or a particular check-in time, mention it in your enquiry and wait for confirmation.</p><div className="mt-6 grid gap-3 sm:grid-cols-2">{["Room occupancy","AC availability","Bathroom arrangements","Check-in and check-out","Current pricing","House rules"].map(x=><p key={x} className="flex gap-2 text-sm"><CheckCircle2 size={17} className="text-[#9B7A43]"/>{x}</p>)}</div></div></div></section><BookingCTA/></>; }
