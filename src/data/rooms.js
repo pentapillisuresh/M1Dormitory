@@ -8,7 +8,7 @@ export const rooms = [
     unit: "per person / day",
     capacity: "Shared AC accommodation",
     bedLabel: "Iron bunk bed",
-    image: "/images/room1.png",
+    image: "/images/bed4.png",
     alt: "Air-conditioned dormitory room with comfortable bunk beds",
     features: [
       "Air-conditioned accommodation",
@@ -24,7 +24,7 @@ export const rooms = [
     unit: "per person / day",
     capacity: "Shared AC accommodation",
     bedLabel: "Iron bunk bed",
-    image: "/images/room2.png",
+    image: "/images/bed2.png",
     alt: "Clean and comfortable air-conditioned dormitory interior",
     features: [
       "Air-conditioned accommodation",
@@ -40,7 +40,7 @@ export const rooms = [
     unit: "per person / day",
     capacity: "Shared AC accommodation",
     bedLabel: "Iron bunk bed",
-    image: "/images/room3.png",
+    image: "/images/bed3.png",
     alt: "Comfortable shared dormitory accommodation",
     features: [
       "Air-conditioned accommodation",

@@ -97,7 +97,7 @@ export default function Testimonials() {
             className="group relative min-h-[330px] overflow-hidden sm:min-h-[430px] lg:min-h-[570px]"
           >
             <motion.img
-              src="/images/room1.png"
+              src="/images/bed5.png"
               alt="AC dormitory accommodation in Visakhapatnam"
               loading="lazy"
               initial={{ scale: 1.08 }}

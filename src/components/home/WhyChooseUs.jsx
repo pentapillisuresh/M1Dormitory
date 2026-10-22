@@ -176,7 +176,7 @@ export default function WhyChooseUs() {
               className="absolute inset-0"
             >
               <img
-                src="/images/room1.png"
+                src="/images/bed4.png"
                 alt="AC dormitory accommodation in Visakhapatnam"
                 className="h-full w-full object-cover"
               />

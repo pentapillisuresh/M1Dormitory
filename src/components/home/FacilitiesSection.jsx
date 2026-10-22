@@ -8,7 +8,7 @@ import {
   Sparkles,
   ShieldCheck,
   BedDouble,
-  Wifi,
+  CarFront,
   Bath,
   Wind,
   Clock3,
@@ -64,10 +64,10 @@ const premiumFacilities = [
       "Access to shared washroom facilities. Ask about the available setup.",
   },
   {
-    icon: Wifi,
-    title: "Wi-Fi Availability",
+    icon: CarFront,
+    title: "Two & Four Wheeler Parking",
     description:
-      "Ask our team whether Wi-Fi is available during your intended stay.",
+      "Parking facilities available for both two-wheelers and four-wheelers.",
   },
   {
     icon: Clock3,

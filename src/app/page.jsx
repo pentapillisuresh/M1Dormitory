@@ -79,7 +79,7 @@ export default function HomePage() {
             {/* Left: Dormitory image */}
             <div className="group relative min-h-[320px] overflow-hidden sm:min-h-[420px] lg:min-h-[560px]">
               <img
-                src="/images/room1.png"
+                src="/images/bed5.png"
                 alt="AC dormitory accommodation in Visakhapatnam"
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
